@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from "vue-router";
-import Home from "/resources/js/components/Home.vue";
-import ShipEditing from "/resources/js/components/ShipEditing.vue";
-import CabinEditing from "/resources/js/components/CabinEditing.vue";
+import Home from "/resources/js/views/Home.vue";
+import ShipEditing from "/resources/js/views/ShipEditing.vue";
+import CabinEditing from "/resources/js/views/CabinEditing.vue";
 
 const routes = [
     {

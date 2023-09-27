@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::post('/ships/get', [\App\Http\Controllers\ShipsController::class, 'index']);
 Route::post('/ships/get/{id}', [\App\Http\Controllers\ShipsController::class, 'getShipById']);
-Route::post('/ships/getCabins/{id}', [\App\Http\Controllers\ShipsController::class, 'getCabins']);
+Route::post('/ships/getCabinsByShip/{id}', [\App\Http\Controllers\ShipsController::class, 'getCabinsByShip']);
 Route::post('/ships/getGallery/{id}', [\App\Http\Controllers\ShipsController::class, 'getGallery']);
 Route::post('/ships/updateSpecifications/{id}', [\App\Http\Controllers\ShipsController::class, 'updateSpecifications']);
 Route::post('/ships/updateDescription/{id}', [\App\Http\Controllers\ShipsController::class, 'updateDescription']);

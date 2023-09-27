@@ -28,7 +28,7 @@ class ShipsController extends Controller
      * @param Request $request
      * @return mixed
      */
-    public function getCabins(Request $request): mixed
+    public function getCabinsByShip(Request $request): mixed
     {
         return Ship::find($request->route()->id)->cabins()->orderBy('ordering', 'asc')->get();
     }

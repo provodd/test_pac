@@ -8,8 +8,8 @@ export async function getShip(id) {
     const response = await api.post(`/api/ships/get/${id}`);
     return response;
 }
-export async function getCabins(id) {
-    const response = await api.post(`/api/ships/getCabins/${id}`);
+export async function getCabinsByShip(id) {
+    const response = await api.post(`/api/ships/getCabinsByShip/${id}`);
     return response;
 }
 export async function getGallery(id) {
@@ -26,6 +26,10 @@ export async function updateDescription(id, object) {
 }
 export async function getCabin(id) {
     const response = await api.post(`/api/cabins/get/${id}`);
+    return response;
+}
+export async function getCabins() {
+    const response = await api.post(`/api/cabins/get`);
     return response;
 }
 export async function updateCabin(id, object) {
