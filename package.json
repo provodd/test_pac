@@ -22,6 +22,7 @@
         "vue-loader": "^17.2.2",
         "vue-router": "^4.2.5",
         "vue3-carousel": "^0.2.16",
-        "vuex": "^4.0.2"
+        "vuex": "^4.0.2",
+        "mosha-vue-toastify": "^1.0.23"
     }
 }
