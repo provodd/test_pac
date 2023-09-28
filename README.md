@@ -1,11 +1,19 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-# Тестовое задание
-Необходимо было создать три страницы:
-1)	Страница со списком лайнеров;
-2)	Страница редактирования лайнера;
-3)	Страница редактирования категории;
+## Тестовое задание
+Реализовать crud - приложение со следущим списком страниц:
+- Страница со списком лайнеров;
+- Страница редактирования лайнера;
+- Страница редактирования категории;
 
-### Демо: https://alfinna.ru/
+## Инструменты
 
-> Инструменты: Laravel 9, Mysql, Bootstrap, Vue.js
+- Laravel 9
+- Mysql
+- Bootstrap
+- Vue 3
+
+### Демо
+https://alfinna.ru/
+
+
