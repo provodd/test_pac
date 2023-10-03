@@ -13,7 +13,4 @@
 - Bootstrap
 - Vue 3
 
-### Демо
-https://alfinna.ru/
-
 
